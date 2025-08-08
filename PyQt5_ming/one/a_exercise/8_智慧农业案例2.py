@@ -571,7 +571,7 @@ class AgricultureMonitorUI(QMainWindow):
 
         # 底部状态栏
         status_bar = QLabel("© 2025 智慧农业监测系统 | 版本 1.0.0")
-        status_bar.setFont(QFont("PingFang SC", 10))
+        status_bar.setFont(QFont("微软雅黑", 10))
         status_bar.setStyleSheet("""
             background-color: rgba(255, 255, 255, 65%);
             border: 1px solid #dee2e6;
@@ -743,6 +743,6 @@ class AgricultureMonitorUI(QMainWindow):
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = AgricultureMonitorUI()
-    window.setWindowIcon(QIcon("06_icon.png"))
+    window.setWindowIcon(QIcon("../06_icon.png"))
     window.show()  # 全屏显示
     sys.exit(app.exec_())
