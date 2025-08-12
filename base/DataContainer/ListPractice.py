@@ -1,6 +1,4 @@
 # 1.定义列表
-from base.list.ListBase import index
-
 list1 = [10, 20, 30]
 print(f"列表元素为:{list1}")
 # 2.追加数字
