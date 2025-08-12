@@ -24,10 +24,8 @@ class Solution:
 
 
 if __name__ == "__main__":
-    # 创建Solution实例
     sol = Solution()
-
-    # 测试用例1
+    # 测试用例
     nums1 = [2, 7, 11, 15]
     target1 = 9
     result1 = sol.twoSum(nums1, target1)
