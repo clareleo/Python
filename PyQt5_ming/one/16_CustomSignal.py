@@ -59,7 +59,7 @@ class MyWindow(QWidget):
             print(">>模拟，正在检查 %s 上的漏洞...." % ip, end="")
             if i % 5 == 0:
                 # 表示发射信号 对象.信号.发射（参数）
-                self.my_signal.emit("发现漏洞")
+                self.my_signal.emit("我能整除5")
             else:
                 self.my_signal.emit("")
             time.sleep(0.01)
