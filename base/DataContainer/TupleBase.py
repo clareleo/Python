@@ -5,7 +5,6 @@ t3 = tuple()
 print(f"1.t1的类型是：{type(t1)}, 内容是：{t1}")
 print(f"2.t2的类型是：{type(t2)}, 内容是：{t2}")
 print(f"3.t3的类型是：{type(t3)}, 内容是：{t3}")
-
 # 定义单个元素的元素
 t4 = ("hello",) # 元组中只有一个元素，必须加逗号
 print(f"4.t4的类型是：{type(t4)}, t4的内容是：{t4}")
@@ -16,7 +15,6 @@ print(f"5.t5的类型是：{type(t5)}, 内容是：{t5}")
 # 下标索引去取出内容
 num = t5[1][2]
 print(f"6.从嵌套元组中取出的数据是：{num}")
-
 # 元组的操作：index查找方法
 t6 = ("7.ming", "song", "Python")
 index = t6.index("song")
